@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+    background-image: url(https://images.wallpaperscraft.com/image/jungle_fantasy_deer_butterflies_night_trees_102121_1600x1200.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.code{
+    display:none;
+}
+
+.title{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    
+}
+.title, h1 h3{
+    margin: 0px;
+}
+
+.hidden{
+    display:none;
+}
+
+.edit{
+    display: none;
+}
+
+.toogle{
+    display: inline;
+}
+
+.displayinline{
+    display: inline;
+}
+
+.displaynone{
+    display: none;
+}
+
+
+.links{
+    color:white;
+    background-color: rgba(255, 255, 255, 0.3);
+    border:solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 30px;
+    padding-left: 15px;
+
+}
+
+ul{
+    padding: 0px;
+    border:solid;
+    border-width: 0px 1px 0px 0px; 
+    margin: 15px -12px 0px 0px;
+    padding-right: 15px;
+}
+li {
+    list-style-type: none;
+    padding-right: -15px;
+}
+  
+a{
+    color: white;
+}
+
+
+.links,h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0px;
+}
+
+.category{
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    margin: 15px 0px 15px 0px;
+    padding-right: 15px;
+}
+.value{
+    font-size: 14pt;
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.editBtn{
+    display: inline-block;
+    margin-top:10px;
+    text-align: center;
+    border-style:solid;
+    border-radius: 64px;
+    border-color: rgba(255, 255, 255, 0.3);
+    background-color:  rgba(255, 255, 255, 0.0);
+    color:rgba(255, 255, 255, 0.3);
+    
+    
+    
+}
+
+.editBtn:hover{
+    border-color: rgba(255, 255, 255, 1);
+    background-color:  rgba(255, 255, 255, 0.5);
+    color:rgba(255, 255, 255, 1);
+
+}
+
+.toogle{
+    margin: 0 auto;
+    display: none;
+
+}

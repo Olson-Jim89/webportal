@@ -1,0 +1,84 @@
+.LoginWidget {
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    box-shadow: 2px 2px 1px grey;
+    background-color:rgba(255, 255, 255, 0.3);
+    margin: auto;
+    width: 470px;
+    height: 300px;
+    vertical-align: middle;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+.spinCome{
+    -webkit-animation-name: goToRegister; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: goToRegister;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.spinGo{
+    -webkit-animation-name: goToLogin; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: goToLogin;
+    animation-duration: 1s;
+}
+
+.RegisterWidget {
+    display:none;
+}
+
+#toRegisterBtn, #toLoginBtn{
+    border: 0;
+    background: none;
+}
+#toRegisterBtn:hover, #toLoginBtn:hover{
+    text-decoration: underline;
+}
+
+.RemmeberMe{
+    margin: auto;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+    width: 200px;
+}
+
+h1, h2, h3, button, label{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+}
+
+label{
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+input{
+    width: 45%;
+    margin-left: 10px;
+    float:left; 
+    border-radius: 12px;
+}
+button{
+    display: inline-block;
+    margin:0px 10px 0px 10px; 
+    width: 120px; 
+    text-align:center;
+}
+
+@keyframes spinOut {
+    from {transform: rotateY(10deg);}
+    to {transform: rotateY(90deg);}
+    
+  }
+
+  @keyframes spinIn {
+    from {transform: rotateY(90deg);}
+    to {transform: rotateY(0deg);}
+  }
